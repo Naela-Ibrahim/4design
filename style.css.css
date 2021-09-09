@@ -1,0 +1,185 @@
+
+/*
+ font-family:cairo/comfortaa
+color:red/#51455e 
+*/
+body{
+    margin: 0;
+    padding: 0;;
+}
+
+.navbar{
+    width:100%;
+    height:70px;
+   
+    
+   }
+
+.navbar p{
+    font-size: 45px;
+    font-family:  comfortaa ;
+    float:left;
+    margin-top: 0;
+    padding:10px;
+    color:#51455e ;
+    margin-right: 2%;
+   }
+
+.navbar ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 40%;
+    width:40%;
+    margin-top: 30px;    
+ }
+
+.navbar ul li{
+    display:inline;
+    margin-left: 5px;
+    font-family: comfortaa;
+    color:#51455e;
+    margin-left: 4%;
+  }
+  .navbar ul li:hover{color:red;}
+  /*header*/
+  .header{
+      width:100%;
+      height: 1000px;
+      background-image: url(design.jpg);
+      background-size: cover;
+      position: relative;
+  }
+ 
+  
+  .header p{
+      position: absolute;
+      top:70px;
+      left: 20%;
+      font-family: comfortaa;
+      font-size: 50px;
+      color: white;
+      border-bottom: 2px solid white;
+      
+  }
+  .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    opacity: .5;
+ }
+
+      /*about*/
+
+ .about{
+    padding: 80px 0 80px 0;
+ }
+ .about p{
+     width:45%;
+     font-family: cairo;
+     font-size: 20px;
+    float:left;
+    margin-left: 5%;
+    
+ }
+
+.about p span{
+    display: block;
+    font-family: comfortaa;
+    font-size: 40px;
+    color: #21455e;
+    border-bottom: solid thin red;
+    text-transform: uppercase;
+    width: 33%;
+    margin-bottom: 20px;
+   
+}
+.about img{
+    width: 40%;
+    height: 400px;
+    margin-left: 6%;
+    box-shadow: 5px 0 10px black;
+    
+}
+
+.services{
+    padding: 80px 0;
+    background-image: url(design.jpg);
+    background-size: cover;
+    position: relative;
+    height: 400px;
+}
+.services .opacity{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.services span{
+    color: white;
+    font-size: 50px;
+    font-family: comfortaa;
+    border-bottom: solid thin red;
+    position: absolute;
+    left:40%;
+    z-index: 2;
+    
+}
+.services .opacity .item{
+    width:20%;
+    height: 300px;
+    color: white;
+font-family: cairo;
+font-size: 15px;
+text-align: center;
+margin-top:300px ;
+margin-left: 4%;
+float: left;}
+
+.services .opacity .item i{
+    color:#21455e;
+    padding: 10px;
+}
+.contact-us{
+    padding:100px 0;
+}
+.contact-us .item{
+    width: 20%;
+    height: 70px;
+    float: left;
+    box-shadow: 0 0 20px black;
+    margin-left: 10%;
+    font-family: cairo;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    color:#21455e ;
+}
+
+.contact-us ul{
+    list-style: none;
+    margin-top: 200px;
+    margin-left: 37%;
+    
+}
+
+.contact-us ul li{
+    display: inline;
+    margin-left: 4%;
+    color:#21455e
+}
+.copy-right{
+    width:100%;
+    
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:10px 0;
+    font-family: cairo;
+
+}
+  
